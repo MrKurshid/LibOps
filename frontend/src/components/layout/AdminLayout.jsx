@@ -65,7 +65,7 @@ const AdminLayout = ({ children }) => {
           <BookOpen size={16} className="text-white" />
         </div>
         <div>
-          <p className="text-sm font-bold text-slate-900 dark:text-slate-100 font-display leading-none">LibraryOS</p>
+          <p className="text-sm font-bold text-slate-900 dark:text-slate-100 font-display leading-none">LibOPS</p>
           <p className="text-xs text-slate-500 dark:text-slate-400">{admin?.name || "Owner"}</p>
         </div>
       </div>
@@ -153,7 +153,7 @@ const AdminLayout = ({ children }) => {
             <div className="w-6 h-6 rounded-md bg-primary-600 flex items-center justify-center">
               <BookOpen size={12} className="text-white" />
             </div>
-            <span className="text-sm font-bold text-slate-900 dark:text-slate-100 font-display">LibraryOS</span>
+            <span className="text-sm font-bold text-slate-900 dark:text-slate-100 font-display">LibOPS</span>
           </div>
         </header>
 

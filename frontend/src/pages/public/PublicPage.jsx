@@ -134,7 +134,7 @@ const PublicPage = () => {
         <div className="inline-flex items-center justify-center mb-6 w-16 h-16 rounded-3xl bg-primary-600 text-white mx-auto shadow-lg shadow-primary-600/25">
           <BookOpen size={28} />
         </div>
-        <h1 className="text-4xl font-bold text-slate-900 dark:text-slate-100 mb-3">Welcome to LibraryOS</h1>
+        <h1 className="text-4xl font-bold text-slate-900 dark:text-slate-100 mb-3">Welcome to LibOPS</h1>
         <p className="text-slate-600 dark:text-slate-400 mb-8">We are building a better library experience. Library owners can sign up or log in to create and manage their library listings.</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <button onClick={() => navigate('/admin/signup')} className="btn-primary min-w-[160px]">Owner Signup</button>

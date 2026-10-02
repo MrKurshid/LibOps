@@ -58,7 +58,7 @@ const LoginPage = () => {
             <BookOpen size={26} className="text-white" />
           </div>
           <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100 font-display">
-            LibraryOS
+            LibOPS
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">
             Sign in to manage your library
@@ -66,13 +66,7 @@ const LoginPage = () => {
         </div>
 
         <div className="card p-8">
-          <form
-            onSubmit={(e) => {
-              // e.preventDefault();
-              handleSubmit(onSubmit);
-            }}
-            className="space-y-5"
-          >
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
             <div>
               <label className="label">Email Address</label>
               <input
